@@ -140,7 +140,6 @@ rules:
 | SOC Analyst Rejects | Machine remains online with logs updated |
 
 ## **8. Future Enhancements**
-- **Machine Learning Integration** – Improve detection accuracy for evolving threats.
 - **Automated Response Playbooks** – Expand automation for different attack scenarios.
 - **Multi-Platform Support** – Extend support to cloud-based and hybrid environments.
 - **Enhanced SOC Dashboard** – Develop a UI for better visualization of alerts and actions.
