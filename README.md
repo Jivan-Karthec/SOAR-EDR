@@ -17,7 +17,7 @@ The SOAR system is built around three key components:
 3. **SOC Team** – Receives alerts, reviews incidents, and approves response actions.
 
 ### **Architecture Diagram**
-![SOAR Architecture](SOAR_ARCHITECTURE.png)
+![SOAR LOGICAL DIAGRAM drawio](https://github.com/user-attachments/assets/7b9cb447-ab0b-45d0-b2d0-b16c8155ebe1)
 
 ## **3. Detection Workflow**
 ### **Threat Detection Flow**
@@ -83,15 +83,19 @@ rules:
 
 - action: report
   metadata:
-    author: MyDFIR
+    author: Jivan
     description: TEST - Detects Lazagne Usage
     falsepositives:
     - ToTheMoon
     level: high
     tags:
     - attack.credential_access
-  name: MyDFIR - HackTool - Lazagne
+  name: JK - Lazagne
 ```
+### **Tines Workflow Diagram:**
+
+![soar edr jk-storyboard](https://github.com/user-attachments/assets/5ab0e896-3910-41ee-8783-57dddbc3afb7)
+
 
 ### **Tines Workflow JSON Example**
 ```json
@@ -140,9 +144,5 @@ rules:
 - **Automated Response Playbooks** – Expand automation for different attack scenarios.
 - **Multi-Platform Support** – Extend support to cloud-based and hybrid environments.
 - **Enhanced SOC Dashboard** – Develop a UI for better visualization of alerts and actions.
-
----
-### **Workflow Diagram:**
-![SOAR Workflow](SOAR_WORKFLOW.png)
 
 This workflow ensures **automated threat detection, real-time analyst interaction, and efficient incident response.** 🚀
